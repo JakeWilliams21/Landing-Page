@@ -20,6 +20,7 @@ ul {
 .header-div {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 64px;
     background-color: #1F2937;
     color: white;
@@ -51,6 +52,8 @@ ul {
 
 .header-info {
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding-bottom: 64px;
     gap: 32px;
 }
@@ -62,6 +65,9 @@ ul {
     align-items: center;
     background-color: #E5E7EB;
     color: #1F2937;
+    width: 1000px;
+    height: 200px;
+    flex: auto;
 }
 
 .header-description {
@@ -155,4 +161,26 @@ ul {
     display: flex;
     flex: 1;
     justify-content: right;
+}
+
+/* Call to Action */
+
+.action-div {
+
+}
+
+.action-container {
+
+}
+
+.action-text {
+
+}
+
+.action-title {
+
+}
+
+.action-subtext {
+
 }
