@@ -166,21 +166,52 @@ ul {
 /* Call to Action */
 
 .action-div {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 0;
 }
 
 .action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 128px;
+    padding: 32px 64px;
+    background-color: #3882F6;
+    border-radius: 4px;
+}
 
+.action-container button {
+    background-color: #3882F6;
+    border: solid;
+    border-width: 2px;
+    border: 4px;
+    border-color: white;
+    color: white;
 }
 
 .action-text {
-
+    display: flex;
+    flex-direction: column;
+    color: white;
 }
 
 .action-title {
-
+    font-weight: bold;
 }
 
 .action-subtext {
+    font-weight: lighter;
+}
 
+/* Footer */
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 32px 0;
 }
